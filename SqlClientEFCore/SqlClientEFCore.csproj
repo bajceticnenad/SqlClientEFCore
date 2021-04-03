@@ -16,6 +16,7 @@ Nuget (C# library) EntityFrameworkCore SQL Client for Exec StoredProcedure and C
 If you have any questions, comments, or run into any problems, don't hesitate to send me an e-mail at
 nenadbajcetic@hotmail.com</PackageReleaseNotes>
     <PackageTags>SqlClient, EFCore, SQLBuilder, Entity framework Core, Stored Procedure</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
