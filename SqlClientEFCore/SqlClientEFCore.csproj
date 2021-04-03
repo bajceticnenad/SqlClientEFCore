@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Nenad Bajčetić</Authors>
+    <Company>DotNET Code Čačak</Company>
+    <Description>Nuget (C# library) EntityFrameworkCore SQL Client for Exec StoredProcedure and Command text.</Description>
+    <Copyright>DotNET Code Čačak</Copyright>
+    <PackageProjectUrl>https://github.com/bajceticnenad/SqlClientEFCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bajceticnenad/SqlClientEFCore</RepositoryUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageReleaseNotes>v1.0.0
+Nuget (C# library) EntityFrameworkCore SQL Client for Exec StoredProcedure and Command text.
+
+If you have any questions, comments, or run into any problems, don't hesitate to send me an e-mail at
+nenadbajcetic@hotmail.com</PackageReleaseNotes>
+    <PackageTags>SqlClient, EFCore, SQLBuilder, Entity framework Core, Stored Procedure</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+  </ItemGroup>
+
+</Project>
