@@ -43,7 +43,7 @@ namespace SqlClientEFCore
             cmd.Parameters.Add(param);
             return cmd;
         }
-        //public static DbCommand AddOutputParam(this DbCommand cmd, string paramName, object paramValue)
+        //public static DbCommand AddOutputParam(this DbCommand cmd, string paramName, object paramValue, int direction)
         //{
         //    if (string.IsNullOrEmpty(cmd.CommandText))
         //    {
